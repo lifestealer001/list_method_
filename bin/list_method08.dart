@@ -7,7 +7,7 @@
         list: return answer
 */
 List func(List<String> fruit,String x){
-  for(int i=0;i<=fruit.length;i++){
+  for(int i=0;i<fruit.length;i++){
     if(fruit[i]==x){
       fruit.remove(x);
 
