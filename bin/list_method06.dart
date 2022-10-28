@@ -9,7 +9,7 @@
 int func(List<String> fruits,String x){
   int sum = 0;
   for(int i=0;i<fruits.length;i++){
-    if(fruit[i]==x){
+    if(fruits[i]==x){
       sum+=1;
 
     }
