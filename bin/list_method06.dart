@@ -6,15 +6,15 @@
     Returns:
         int: return answer
 */
-int func(List<String> fruits,String x){
+int func(List<String> fruits){
   int sum = 0;
   for(int i=0;i<fruits.length;i++){
-    if(fruits[i]==x){
+    if(fruits[i]=='apple'){
       sum+=1;
 
     }
 }return sum;
 }
 void main() {
-  print(func(['apple','orand','apple','melone','apple','apple','apple'], 'apple'));
+  print(func(['apple','orand','apple','melone','apple','apple','apple']));
 }
