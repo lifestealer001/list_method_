@@ -6,5 +6,15 @@
     Returns:
         int: return answer
 */
-
-void main() {}
+int func(List<int> numbers){
+  int sum = 0;
+  for(int i=0;i<numbers.length;i++){
+    if(numbers[i]==0){
+      sum+=1;
+    } 
+    return sum;
+}
+}
+void main() {
+  print(func([1,0,1,1,1,1,0]));
+}

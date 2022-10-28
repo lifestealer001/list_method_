@@ -9,5 +9,10 @@
     Returns:
         list: return answer
 */
-
-void main() {}
+List func(List<int> numbers1,List<int> numbers2){
+  numbers1.addAll(numbers2);
+return numbers1;
+}
+void main() {
+  print(func([2,4],[4,5]));
+}

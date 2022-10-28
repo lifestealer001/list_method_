@@ -7,5 +7,9 @@
     Returns:
         list: return answer
 */
-
-void main() {}
+int func(List<int> numbers,int i){
+return numbers[i];
+}
+void main() {
+  print(func([1,2,33,5],0));
+}
