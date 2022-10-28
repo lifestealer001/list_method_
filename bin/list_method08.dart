@@ -6,8 +6,8 @@
     Returns:
         list: return answer
 */
-List func(List<String> fruit,String x){
-  for(int i=0;i<fruit.length;i++){
+List func(List<String> fruits,String x){
+  for(int i=0;i<fruits.length;i++){
     if(fruit[i]==x){
       fruit.remove(x);
 

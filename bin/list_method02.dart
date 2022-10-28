@@ -13,5 +13,5 @@ List func(List<String> fruit,String x,int i){
 return fruit;
 }
 void main() {
-  print(func(['orand','apple','melone'], 'kiwi',3));
+  print(func(['orand','apple','melone'], 'kiwi',0));
 }
