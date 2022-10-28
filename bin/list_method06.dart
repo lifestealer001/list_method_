@@ -6,9 +6,9 @@
     Returns:
         int: return answer
 */
-int func(List fruit,String x){
+int func(List<String> fruit,String x){
   int sum = 0;
-  for(int i=0;i<fruit.length;i++){
+  for(int i=0;i<=fruit.length;i++){
     if(fruit[i]==x){
       sum+=1;
 
@@ -16,5 +16,5 @@ int func(List fruit,String x){
 }return sum;
 }
 void main() {
-  print(func(['orand','apple','melone','apple'], 'apple'));
+  print(func(['apple','orand','apple','melone','apple','apple','apple'], 'apple'));
 }
