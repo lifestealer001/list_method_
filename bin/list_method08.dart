@@ -6,14 +6,14 @@
     Returns:
         list: return answer
 */
-List func(List<String> fruit,String x){
+List func(List<String> fruit){
   for(int i=0;i<fruit.length;i++){
-    if(fruit[i]==x){
-      fruit.remove(x);
+    if(fruit[i]=='apple'){
+      fruit.remove('apple');
 
     }
 }return fruit;
 }
 void main() {
-  print(func(['orand','apple','melone','apple','apple'], 'apple'));
+  print(func(['orand','apple','melone','apple','apple']));
 }
