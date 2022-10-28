@@ -6,10 +6,10 @@
     Returns:
         list: return answer
 */
-List func(List<String> fruit,String x){
+List func(List<String> fruit){
   List ans = [0];
   for(int i=0;i<fruit.length;i++){
-    if(fruit[i]==x){
+    if(fruit[i]=='apple'){
       ans.add(i);
       ans[0]++;
 
@@ -17,5 +17,5 @@ List func(List<String> fruit,String x){
 }return ans;
 }
 void main() {
-  print(func(['orand','apple','melone','apple','apple'], 'apple'));
+  print(func(['orand','apple','melone','apple','apple']));
 }
