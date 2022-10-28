@@ -11,10 +11,10 @@ int func(List fruit,String x){
   for(int i=0;i<fruit.length;i++){
     if(fruit[i]==x){
       sum+=1;
-      return sum.toInt();
+
     }
-}
+}return sum;
 }
 void main() {
-  print(func(['orand','apple','melone'], 'apple'));
+  print(func(['orand','apple','melone','apple'], 'apple'));
 }

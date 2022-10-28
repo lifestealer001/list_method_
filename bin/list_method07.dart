@@ -12,8 +12,7 @@ int func(List<int> numbers){
     if(numbers[i]==0){
       sum+=1;
     } 
-    return sum;
-}
+}return sum;
 }
 void main() {
   print(func([1,0,1,1,1,1,0]));
