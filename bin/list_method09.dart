@@ -7,13 +7,14 @@
         list: return answer
 */
 List func(List<String> fruit,String x){
-  int sum = 0;
+  List ans = [0];
   for(int i=0;i<fruit.length;i++){
     if(fruit[i]==x){
-      sum+=1;
-      return [sum,fruit.add(i)];
+      ans.add(i);
+      ans[0]++;
+
     }
-}
+}return ans;
 }
 void main() {
   print(func(['orand','apple','melone','apple','apple'], 'apple'));
